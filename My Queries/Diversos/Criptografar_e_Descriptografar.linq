@@ -1,11 +1,11 @@
 <Query Kind="Program">
-  <Reference>C:\GlobusMais\Frameworks\FGlobus\Distribuicao\BgmRodotec.FGlobus.Util.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.Windows.Forms.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.Security.dll</Reference>
   <Reference>&lt;RuntimeDirectory&gt;\Accessibility.dll</Reference>
+  <Reference Relative="..\Dll\BgmRodotec.FGlobus.Util.dll">C:\Users\alessandro.augusto\GitHub\LinqPad\My Queries\Dll\BgmRodotec.FGlobus.Util.dll</Reference>
   <Reference>&lt;RuntimeDirectory&gt;\System.Configuration.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.Runtime.Serialization.Formatters.Soap.dll</Reference>
   <Reference>&lt;RuntimeDirectory&gt;\System.Deployment.dll</Reference>
+  <Reference>&lt;RuntimeDirectory&gt;\System.Runtime.Serialization.Formatters.Soap.dll</Reference>
+  <Reference>&lt;RuntimeDirectory&gt;\System.Security.dll</Reference>
+  <Reference>&lt;RuntimeDirectory&gt;\System.Windows.Forms.dll</Reference>
 </Query>
 
 void Main()
