@@ -4,7 +4,7 @@
 
 void Main()
 {
-	Dictionary<string,DateTime> dictionary = new Dictionary<string,DateTime>();
+	var dictionary = new Dictionary<string,DateTime>();
 	dictionary.Add("Eu         ",new DateTime(1977,06,24));
 	dictionary.Add("*BGM       ",new DateTime(1995,06,22)); 
 	dictionary.Add("*BGMRodotec",new DateTime(2004,01,02)); 
